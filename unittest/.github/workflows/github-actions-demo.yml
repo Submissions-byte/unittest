@@ -1,0 +1,60 @@
+name: Validate Repository Structure and Run Tests
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  validate-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: Verify /docs folder exists
+        run: |
+          if [ ! -d "docs" ]; then
+            echo "Error: /docs directory is missing."
+            exit 1
+          fi
+          echo "/docs directory found."
+
+      - name: Verify required files exist in /docs
+        run: |
+          echo "Listing files in /docs:"
+          ls -la docs/
+
+          # Verify SQL script existence
+          if ! ls docs/*.sql 1> /dev/null 2>&1; then
+            echo "Error: No .sql file found in /docs."
+            exit 1
+          fi
+          if ! (ls docs/*.docx 1>/dev/null 2>&1 || ls docs/*.pdf 1>/dev/null 2>&1); then
+            echo "Error: No .pdf or .docx file found in /docs for the API endpoint plan."
+            exit 1
+          fi
+          if ! ls docs/*.png 1>/dev/null 2>&1; then
+            echo "Error: No .png file found in /docs for the Entity-Relationship Diagram."
+            exit 1
+          fi
+          echo "Required documentation files validated successfully."
+
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0' # Adjust if using 6.0, 7.0, etc.
+
+      - name: Restore Dependencies
+        working-directory: ./RaceDay
+        run: dotnet restore
+
+      - name: Build Project
+        working-directory: ./RaceDay
+        run: dotnet build --no-restore --configuration Release
+
+      - name: Run Unit Tests
+        working-directory: ./RaceDay
+        run: dotnet test --no-build --verbosity normal

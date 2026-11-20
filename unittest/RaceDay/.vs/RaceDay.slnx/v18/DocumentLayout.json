@@ -1,0 +1,261 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|RaceDay\\RaceDay.csproj|c:\\users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\raceday\\raceday\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|RaceDay\\RaceDay.csproj|solutionrelative:raceday\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|RaceDay\\RaceDay.csproj|c:\\users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\raceday\\raceday\\controllers\\organiserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|RaceDay\\RaceDay.csproj|solutionrelative:raceday\\controllers\\organiserscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|RaceDay\\RaceDay.csproj|c:\\users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\raceday\\raceday\\models\\organiser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|RaceDay\\RaceDay.csproj|solutionrelative:raceday\\models\\organiser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|RaceDay\\RaceDay.csproj|c:\\users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\raceday\\raceday\\models\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|RaceDay\\RaceDay.csproj|solutionrelative:raceday\\models\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C6E872A-37E2-4BD2-925F-52E563AA6501}|API Auth\\API_Authentication.Tests.csproj|c:\\users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\raceday\\api auth\\locationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C6E872A-37E2-4BD2-925F-52E563AA6501}|API Auth\\API_Authentication.Tests.csproj|solutionrelative:api auth\\locationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|RaceDay\\RaceDay.csproj|c:\\users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\raceday\\raceday\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|RaceDay\\RaceDay.csproj|solutionrelative:raceday\\controllers\\locationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C6E872A-37E2-4BD2-925F-52E563AA6501}|API Auth\\API_Authentication.Tests.csproj|c:\\users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\raceday\\api auth\\eventtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C6E872A-37E2-4BD2-925F-52E563AA6501}|API Auth\\API_Authentication.Tests.csproj|solutionrelative:api auth\\eventtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|RaceDay\\RaceDay.csproj|c:\\users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\raceday\\raceday\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|RaceDay\\RaceDay.csproj|solutionrelative:raceday\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C6E872A-37E2-4BD2-925F-52E563AA6501}|API Auth\\API_Authentication.Tests.csproj|c:\\users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\raceday\\api auth\\resultstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C6E872A-37E2-4BD2-925F-52E563AA6501}|API Auth\\API_Authentication.Tests.csproj|solutionrelative:api auth\\resultstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C6E872A-37E2-4BD2-925F-52E563AA6501}|API Auth\\API_Authentication.Tests.csproj|c:\\users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\raceday\\api auth\\authtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C6E872A-37E2-4BD2-925F-52E563AA6501}|API Auth\\API_Authentication.Tests.csproj|solutionrelative:api auth\\authtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C6E872A-37E2-4BD2-925F-52E563AA6501}|API Auth\\API_Authentication.Tests.csproj|c:\\users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\raceday\\api auth\\enrolmenttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C6E872A-37E2-4BD2-925F-52E563AA6501}|API Auth\\API_Authentication.Tests.csproj|solutionrelative:api auth\\enrolmenttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|RaceDay\\RaceDay.csproj|c:\\users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\raceday\\raceday\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|RaceDay\\RaceDay.csproj|solutionrelative:raceday\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|RaceDay\\RaceDay.csproj|c:\\users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\raceday\\raceday\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|RaceDay\\RaceDay.csproj|solutionrelative:raceday\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C6E872A-37E2-4BD2-925F-52E563AA6501}|API Auth\\API_Authentication.Tests.csproj|c:\\users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\raceday\\api auth\\categorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C6E872A-37E2-4BD2-925F-52E563AA6501}|API Auth\\API_Authentication.Tests.csproj|solutionrelative:api auth\\categorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|RaceDay\\RaceDay.csproj|c:\\users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\raceday\\raceday\\controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F2FCF9A-8A85-497A-733E-631B3DB717BF}|RaceDay\\RaceDay.csproj|solutionrelative:raceday\\controllers\\resultscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrganisersController.cs",
+              "DocumentMoniker": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\RaceDay\\Controllers\\OrganisersController.cs",
+              "RelativeDocumentMoniker": "RaceDay\\Controllers\\OrganisersController.cs",
+              "ToolTip": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\RaceDay\\Controllers\\OrganisersController.cs",
+              "RelativeToolTip": "RaceDay\\Controllers\\OrganisersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T14:32:48.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Organiser.cs",
+              "DocumentMoniker": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\RaceDay\\Models\\Organiser.cs",
+              "RelativeDocumentMoniker": "RaceDay\\Models\\Organiser.cs",
+              "ToolTip": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\RaceDay\\Models\\Organiser.cs",
+              "RelativeToolTip": "RaceDay\\Models\\Organiser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T11:39:38.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Participant.cs",
+              "DocumentMoniker": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\RaceDay\\Models\\Participant.cs",
+              "RelativeDocumentMoniker": "RaceDay\\Models\\Participant.cs",
+              "ToolTip": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\RaceDay\\Models\\Participant.cs",
+              "RelativeToolTip": "RaceDay\\Models\\Participant.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T11:39:13.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\RaceDay\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "RaceDay\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\RaceDay\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "RaceDay\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAswHIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T20:14:51.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\RaceDay\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "RaceDay\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\RaceDay\\Models\\Category.cs",
+              "RelativeToolTip": "RaceDay\\Models\\Category.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T20:10:59.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EnrolmentTests.cs",
+              "DocumentMoniker": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\API Auth\\EnrolmentTests.cs",
+              "RelativeDocumentMoniker": "API Auth\\EnrolmentTests.cs",
+              "ToolTip": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\API Auth\\EnrolmentTests.cs",
+              "RelativeToolTip": "API Auth\\EnrolmentTests.cs",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAUwNAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T19:32:21.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoryTests.cs",
+              "DocumentMoniker": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\API Auth\\CategoryTests.cs",
+              "RelativeDocumentMoniker": "API Auth\\CategoryTests.cs",
+              "ToolTip": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\API Auth\\CategoryTests.cs",
+              "RelativeToolTip": "API Auth\\CategoryTests.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T19:29:03.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LocationsController.cs",
+              "DocumentMoniker": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\RaceDay\\Controllers\\LocationsController.cs",
+              "RelativeDocumentMoniker": "RaceDay\\Controllers\\LocationsController.cs",
+              "ToolTip": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\RaceDay\\Controllers\\LocationsController.cs",
+              "RelativeToolTip": "RaceDay\\Controllers\\LocationsController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwEwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T18:39:15.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\RaceDay\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "RaceDay\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\RaceDay\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "RaceDay\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T16:12:43.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ResultsController.cs",
+              "DocumentMoniker": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\RaceDay\\Controllers\\ResultsController.cs",
+              "RelativeDocumentMoniker": "RaceDay\\Controllers\\ResultsController.cs",
+              "ToolTip": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\RaceDay\\Controllers\\ResultsController.cs",
+              "RelativeToolTip": "RaceDay\\Controllers\\ResultsController.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAqwIUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T14:23:24.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ResultsTests.cs",
+              "DocumentMoniker": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\API Auth\\ResultsTests.cs",
+              "RelativeDocumentMoniker": "API Auth\\ResultsTests.cs",
+              "ToolTip": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\API Auth\\ResultsTests.cs",
+              "RelativeToolTip": "API Auth\\ResultsTests.cs",
+              "ViewState": "AgIAAN4AAAAAAAAAAAAmwO8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T12:38:12.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthTests.cs",
+              "DocumentMoniker": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\API Auth\\AuthTests.cs",
+              "RelativeDocumentMoniker": "API Auth\\AuthTests.cs",
+              "ToolTip": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\API Auth\\AuthTests.cs",
+              "RelativeToolTip": "API Auth\\AuthTests.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAkwJ4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T12:38:22.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\RaceDay\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "RaceDay\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\RaceDay\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "RaceDay\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAADwv3wAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T14:29:14.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LocationTests.cs",
+              "DocumentMoniker": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\API Auth\\LocationTests.cs",
+              "RelativeDocumentMoniker": "API Auth\\LocationTests.cs",
+              "ToolTip": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\API Auth\\LocationTests.cs",
+              "RelativeToolTip": "API Auth\\LocationTests.cs",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAkwMQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T12:34:17.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EventTests.cs",
+              "DocumentMoniker": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\API Auth\\EventTests.cs",
+              "RelativeDocumentMoniker": "API Auth\\EventTests.cs",
+              "ToolTip": "C:\\Users\\boden\\source\\repos\\emkndn-prog6212-2026-prog6212-poe-submissions-byte\\RaceDay\\API Auth\\EventTests.cs",
+              "RelativeToolTip": "API Auth\\EventTests.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAuwPcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T12:33:23.537Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
