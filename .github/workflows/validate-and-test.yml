@@ -1,0 +1,66 @@
+name: Validate Repository Structure and Run Tests
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  validate-and-test:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: ./unittest
+
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: Verify docs folder exists
+        run: |
+          if [ ! -d "docs" ]; then
+            echo "Error: unittest/docs directory is missing."
+            exit 1
+          fi
+          echo "unittest/docs directory found."
+
+      - name: Verify required files exist in docs
+        run: |
+          echo "Listing files in unittest/docs:"
+          ls -la docs/
+
+          if ! ls docs/*.sql 1>/dev/null 2>&1; then
+            echo "Error: No .sql file found in unittest/docs."
+            exit 1
+          fi
+
+          if ! (ls docs/*.docx 1>/dev/null 2>&1 || ls docs/*.pdf 1>/dev/null 2>&1); then
+            echo "Error: No .pdf or .docx file found in unittest/docs for the API endpoint plan."
+            exit 1
+          fi
+
+          if ! ls docs/*.png 1>/dev/null 2>&1; then
+            echo "Error: No .png file found in unittest/docs for the Entity-Relationship Diagram."
+            exit 1
+          fi
+
+          echo "Required documentation files validated successfully."
+
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0'
+
+      - name: Restore Dependencies
+        working-directory: ./unittest/RaceDay
+        run: dotnet restore
+
+      - name: Build Project
+        working-directory: ./unittest/RaceDay
+        run: dotnet build --no-restore --configuration Release
+
+      - name: Run Unit Tests
+        working-directory: ./unittest/RaceDay
+        run: dotnet test --no-build --verbosity normal
