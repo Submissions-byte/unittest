@@ -10,6 +10,10 @@ jobs:
   validate-and-test:
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: ./unittest
+
     steps:
       - name: Check out repository code
         uses: actions/checkout@v4
@@ -17,27 +21,27 @@ jobs:
       - name: Verify /docs folder exists
         run: |
           if [ ! -d "docs" ]; then
-            echo "Error: /docs directory is missing."
+            echo "Error: unittest/docs directory is missing."
             exit 1
           fi
-          echo "/docs directory found."
+          echo "unittest/docs directory found."
 
       - name: Verify required files exist in /docs
         run: |
-          echo "Listing files in /docs:"
+          echo "Listing files in unittest/docs:"
           ls -la docs/
 
           # Verify SQL script existence
           if ! ls docs/*.sql 1> /dev/null 2>&1; then
-            echo "Error: No .sql file found in /docs."
+            echo "Error: No .sql file found in unittest/docs."
             exit 1
           fi
           if ! (ls docs/*.docx 1>/dev/null 2>&1 || ls docs/*.pdf 1>/dev/null 2>&1); then
-            echo "Error: No .pdf or .docx file found in /docs for the API endpoint plan."
+            echo "Error: No .pdf or .docx file found in unittest/docs for the API endpoint plan."
             exit 1
           fi
           if ! ls docs/*.png 1>/dev/null 2>&1; then
-            echo "Error: No .png file found in /docs for the Entity-Relationship Diagram."
+            echo "Error: No .png file found in unittest/docs for the Entity-Relationship Diagram."
             exit 1
           fi
           echo "Required documentation files validated successfully."
@@ -48,13 +52,13 @@ jobs:
           dotnet-version: '10.0' # Adjust if using 6.0, 7.0, etc.
 
       - name: Restore Dependencies
-        working-directory: ./RaceDay
+        working-directory: ./unittest/RaceDay
         run: dotnet restore
 
       - name: Build Project
-        working-directory: ./RaceDay
+        working-directory: ./unittest/RaceDay
         run: dotnet build --no-restore --configuration Release
 
       - name: Run Unit Tests
-        working-directory: ./RaceDay
+        working-directory: ./unittest/RaceDay
         run: dotnet test --no-build --verbosity normal
